@@ -91,4 +91,4 @@ for root, dirs, files in os.walk(import_folder):
                     cv2.imwrite(thumbnail_path, thumbnail)
 
             # 処理後、元の画像を削除
-            os.remove(image_path)
+            # os.remove(image_path)
